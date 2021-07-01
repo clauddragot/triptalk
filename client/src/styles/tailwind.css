@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply inline-block text-xs font-bold text-center uppercase border rounded;
+  }
+  .button.blue {
+    @apply text-white bg-blue-600 border-blue-600 hover:bg-blue-300 hover:border-blue-300 disabled:bg-blue-300 disabled:border-blue-300;
+  }
+  .button.blue.hollow {
+    @apply text-blue-600 bg-white border-blue-600;
+  }
+  .button.complementary.hollow {
+    @apply bg-white text-secondary-400 border-secondary-400 hover:bg-white;
+  }
+  .button.complementary {
+    @apply text-white bg-secondary-400 border-secondary-400 hover:bg-secondary-300 hover:border-secondary-300 disabled:bg-secondary-300 disabled:border-secondary-300;
+  }
+  .button.action {
+    @apply text-white bg-primary-400 border-primary-400 hover:bg-primary-300 hover:border-primary-300;
+  }
+}
