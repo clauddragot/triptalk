@@ -4,14 +4,14 @@ Web Application where people can create posts/reviews about anything that relate
 
 # Technologies Used:
 
-Node.js
-Express
-PSQL
-TypeORM
-React
-Nextjs
-TypeScript
-TailwindCSS
+- Node.js
+- Express
+- PSQL
+- TypeORM
+- React
+- Nextjs
+- TypeScript
+- TailwindCSS
 
 # App Presentation
 
